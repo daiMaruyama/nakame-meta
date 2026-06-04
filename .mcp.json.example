@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "plateau-creative": {
+      "command": "/opt/homebrew/opt/node@22/bin/node",
+      "args": [
+        "<PROJECT_DIR>/.mcp-servers/plateau/node_modules/@yodolabs/plateau-creative-mcp/dist/index.js"
+      ],
+      "env": {
+        "PLATEAU_AUTO_DOWNLOAD": "true",
+        "PLATEAU_OUTPUT_DIR": "<PROJECT_DIR>/PlateauOut"
+      }
+    }
+  }
+}

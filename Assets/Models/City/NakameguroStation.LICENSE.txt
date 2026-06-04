@@ -1,0 +1,15 @@
+This export bundles data derived from Project PLATEAU (Ministry of Land, Infrastructure, Transport and Tourism, Japan).
+License: CC BY 4.0
+
+Datasets:
+  - plateau-13110-meguro-ku-2023-bldg
+  - plateau-13110-meguro-ku-2023-urf
+  - plateau-13110-meguro-ku-2023-fld
+  - plateau-13110-meguro-ku-2023-lsld
+
+Source URLs:
+  - https://assets.cms.plateau.reearth.io/assets/b9/6a30e5-9726-42df-90cf-92fddd9b0aa5/13110_meguro-ku_pref_2023_citygml_2_op.zip
+
+You must retain this attribution in any derived video, image, or 3D asset.
+
+© Project PLATEAU / MLIT (CC BY 4.0)

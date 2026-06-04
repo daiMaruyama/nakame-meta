@@ -1,0 +1,17 @@
+{
+  "name": "plateau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node patch-plateau-schema.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@gltf-transform/cli": "^4.3.0",
+    "@yodolabs/plateau-creative-mcp": "^0.1.3"
+  }
+}

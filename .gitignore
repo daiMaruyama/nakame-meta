@@ -6,6 +6,20 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
+# PLATEAU Creative MCP raw output (large GLB/3D Tiles bundles; curated GLBs go into Assets/Models/City)
+/PlateauOut/
+# Local MCP server install (212MB, arm64-native duckdb binding); restore with `npm install` in each dir. Lockfiles ARE committed.
+/.mcp-servers/*/node_modules/
+
+# MCP config holds machine-specific absolute paths — commit .mcp.json.example instead.
+/.mcp.json
+
+# PLATEAU-derived city assets (© Project PLATEAU / MLIT, CC BY 4.0). NOT committed:
+# large binaries + derived from a licensed dataset. Regenerate via Assets/Models/City/README.md.
+/[Aa]ssets/Models/City/**/*.glb
+/[Aa]ssets/Models/City/**/*.glb.meta
+/[Aa]ssets/Models/City/NakameguroStation.buildings.json
+/[Aa]ssets/Models/City/NakameguroStation.buildings.json.meta
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
